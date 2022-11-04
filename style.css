@@ -1,0 +1,35 @@
+body {
+	background-color: #e9e9e9;
+    /*background-color: #2e2828;*/
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 1.25;
+	letter-spacing: 1px;
+    content: center;
+}
+
+.container {
+	display: block;
+	position: relative;
+	z-index: 0;
+	margin: 4rem auto 0;
+  padding: 5rem 4rem 0 4rem;
+	width: 100%;
+	max-width: 525px;
+	min-height: 680px;
+	background-color: #00bbbb;
+	box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.85);
+}
+
+header{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    max-width: 525px;
+    min-height: 680px;
+}
+
+p {
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

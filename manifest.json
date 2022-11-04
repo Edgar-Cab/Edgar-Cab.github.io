@@ -1,0 +1,65 @@
+{
+    "name": "Aplicacion Web Progresiva",
+    "short_name": "PWA",
+    "description": "Esta fue mi primera web progresiva",
+    "background_color": "#0C9B7B",
+    "theme_color": "#120381",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./",
+    "scope": "./",
+    "lang": "es-MX",
+    "icons": [
+        {
+            "src": "./img/icon_1024.png",
+            "size": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/icon_512.png",
+            "size": "512x512",
+            "type": "image/png" 
+        },
+        {
+            "src": "./img/icon_384.png",
+            "size": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/icon_256.png",
+            "size": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/icon_192.png",
+            "size": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/icon_128.png",
+            "size": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/icon_96.png",
+            "size": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/icon_64.png",
+            "size": "64x64",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/icon_32.png",
+            "size": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/icon_16.png",
+            "size": "16x16",
+            "type": "image/png"
+        }
+    ]
+
+}
