@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+   background: rgb(51, 51, 51);
+    background-size: cover;
+    background-attachment: fixed;
+}
+* {
+    box-sizing: border-box;
+}
+
+.color{
+    background-color: #585858;
+}
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+.formulario{
+    
+    margin-top: 150px;
+    padding: 3px;
+	background-image: radial-gradient(ellipse at left bottom, rgb(81, 81, 90) 0%,rgba(151, 122, 122, 0.9) 59%, rgba(87, 85, 85, 0.9) 100%);
+
+}
+h1{
+    text-align: center;
+    color: #000000;
+    font-size: 40px;
+}
+input[type="text"],
+input[type="password"]{
+    
+
+    font-size: 1.15rem;
+	width: 100%;
+	padding: .5rem 1rem;
+	border: 2px solid transparent;
+	outline: none;
+	border-radius: 1.5rem;
+	background-color: rgba(255, 255, 255, 0.25);
+	letter-spacing: 1px;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    
+}
+
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:  #002d75;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+
+
+.button:hover{
+    background: rgb(67, 111, 255);
+}
+.btn__boton{
+        position: center;
+}
+p{
+    text-align: center;
+    
+}
+.link{
+    text-decoration: none;
+      color: #000000;
+    font-weight: 600;
+}
+.link:hover{
+     color: cadetblue;
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 600px;
+        margin-top: 70px;
+        border-radius: 2%;
+    }
+}
+
+.login__label {
+	
+	padding-left: 1rem;
+    color: #000000;
+}
+
+.login__label,
+.login__label--checkbox {
+	color: rgba(0, 0, 0, 0.5);
+	text-transform: uppercase;
+	font-size: .95rem;
+	margin-bottom: 1rem;
+}
+
+.login__label--checkbox {
+	display: inline-block;
+	position: relative;
+	padding-left: 1.5rem;
+	margin-top: 2rem;
+	margin-left: 1rem;
+	color: #000000;
+	font-size: .95rem;
+	text-transform: inherit;
+	
+}
